@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+    <title>Twitter</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/blocks/layout.css" />
+    <link rel="stylesheet" href="css/blocks/brand.css" />
+    <link rel="stylesheet" href="css/blocks/sidebar-menu.css" />
+    <link rel="stylesheet" href="css/blocks/tweet.css" />
+    <link rel="stylesheet" href="css/blocks/trends-for-you.css" />
+    <link rel="stylesheet" href="css/blocks/who-to-follow.css" />
+
+
+</head>
+<body>
+    <div class = "layout" >
+        <div class="layout__left-sidebar">
+            <img src="./svg/twitter.svg" class="brand" />
+            <div class="sidebar-menu">
+                <div class="sidebar-menu__item sidebar-menu__item--active">
+                    <img src="./svg/home.svg" class="sidebar-menu__item-icon" />
+                    Home
+                </div>
+
+                <div class="sidebar-menu__item">
+                    <img src="./svg/explore.svg" class="sidebar-menu__item-icon" />
+                    Explore
+                </div>
+
+                <div class="sidebar-menu__item">
+                    <img src="./svg/notification.svg" class="sidebar-menu__item-icon" />
+                    Notification
+                </div>
+
+                <div class="sidebar-menu__item">
+                    <img src="./svg/messages.svg" class="sidebar-menu__item-icon" />
+                    Messages
+                </div>
+
+                <div class="sidebar-menu__item">
+                    <img src="./svg/profile.svg" class="sidebar-menu__item-icon" />
+                    Profile
+                </div>
+
+                <div class="sidebar-menu__item">
+                    <img src="./svg/more.svg" class="sidebar-menu__item-icon" />
+                    More
+                </div>
+
+
+            </div>
+        </div>
+
+        
+
+
+
+        <div class="layout__main">
+
+            <div class="tweet">
+        <!-- feed starts -->
+            <div class="feed">
+                <div class="feed__header">
+                <h2>Home</h2>
+                </div>
+  
+                <!-- tweetbox starts -->
+                <div class="tweetBox">
+                <form>
+                    <div class="tweetbox__input">
+                    <img
+                        src="images/my profile pic.jpg"
+                    />
+                    <input type="text" placeholder="What's happening?" />
+                    </div>
+                    <button class="tweetBox__tweetButton">Tweet</button>
+                </form>
+                </div>
+                <!-- tweetbox ends -->
+
+                <div class="tweet">
+                    <img class="tweet__author-logo" src="./images/my profile pic.jpg" />
+                    <div class="tweet__main" >
+                        <div class="tweet__header" >
+                            <div class="tweet__author-name">
+                                Karan Yedlawar
+                            </div>
+                            <div class="tweet__author-slug">
+                                @pitaji
+                            </div>
+                            <div class="tweet__publish-time">
+                                03m
+                            </div>
+
+                        </div>
+                        <div class="tweet__content">
+                            taste the best biryani.. 
+                            Order Now :
+                            <a href="http://zoma.to/r/19900621">http://zoma.to/r/19900621</a>
+                            <img class="tweet__image" src="./images/business.png"/>
+                        </div>
+                        <div class="post__footer">
+                            <span class="material-icons"> repeat </span>
+                            12
+                            <span class="material-icons"> favorite_border </span>
+                            56
+                            <span class="material-icons"> publish </span>
+                            2
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tweet">
+                    <img class="tweet__author-logo" src="./images/my profile pic.jpg" />
+                    <div class="tweet__main" >
+                        <div class="tweet__header" >
+                            <div class="tweet__author-name">
+                                Karan Yedlawar
+                            </div>
+                            <div class="tweet__author-slug">
+                                @pitaji
+                            </div>
+                            <div class="tweet__publish-time">
+                                38m
+                            </div>
+
+                        </div>
+                        <div class="tweet__content">
+                            Who else is exited for RRR?
+                        </div>
+                        <div class="post__footer">
+                            <span class="material-icons"> repeat </span>
+                            2
+                            <span class="material-icons"> favorite_border </span>
+                            44
+                            <span class="material-icons"> publish </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tweet">
+                    <img class="tweet__author-logo" src="./images/shantanu.jpg" />
+                    <div class="tweet__main" >
+                        <div class="tweet__header" >
+                            <div class="tweet__author-name">
+                                Shantanu Vora
+                            </div>
+                            <div class="tweet__author-slug">
+                                @taklya
+                            </div>
+                            <div class="tweet__publish-time">
+                                15m
+                            </div>
+
+                        </div>
+                        <div class="tweet__content">
+                            I am, but will wait for blueray! okay
+                        </div>
+                        <div class="post__footer">
+                            <span class="material-icons"> repeat </span>
+                            1
+                            <span class="material-icons"> favorite_border </span>
+                            10
+                            <span class="material-icons"> publish </span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tweet">
+                    <img class="tweet__author-logo" src="./images/darpan.jpg" />
+                    <div class="tweet__main" >
+                        <div class="tweet__header" >
+                            <div class="tweet__author-name">
+                                Darpan Bagret
+                            </div>
+                            <div class="tweet__author-slug">
+                                @Baggi
+                            </div>
+                            <div class="tweet__publish-time">
+                                10m
+                            </div>
+
+                        </div>
+                        <div class="tweet__content">
+                            No idea sirji!
+                        </div>
+                        <div class="post__footer">
+                            <span class="material-icons"> repeat </span>
+                            <span class="material-icons"> favorite_border </span>
+                            01
+                            <span class="material-icons"> publish </span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tweet">
+                    <img class="tweet__author-logo" src="./images/my profile pic.jpg" />
+                    <div class="tweet__main" >
+                        <div class="tweet__header" >
+                            <div class="tweet__author-name">
+                                Karan Yedlawar
+                            </div>
+                            <div class="tweet__author-slug">
+                                @pitaji
+                            </div>
+                            <div class="tweet__publish-time">
+                                05m
+                            </div>
+
+                        </div>
+                        <div class="tweet__content">
+                            ek bar trailer to dekh le yaar.. 
+                            <a href="https://youtu.be/NgBoMJy386M">https://youtu.be/NgBoMJy386M</a>
+                            <img class="tweet__image" src="./images/RRR.jpg"/>
+                        </div>
+                        <div class="post__footer">
+                            <span class="material-icons"> repeat </span>
+                            32
+                            <span class="material-icons"> favorite_border </span>
+                            336
+                            <span class="material-icons"> publish </span>
+                            10
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tweet">
+                    <img class="tweet__author-logo" src="./images/shreyash.jpg" />
+                    <div class="tweet__main" >
+                        <div class="tweet__header" >
+                            <div class="tweet__author-name">
+                                Shreyash Deshmukh
+                            </div>
+                            <div class="tweet__author-slug">
+                                @Sdeshmukh
+                            </div>
+                            <div class="tweet__publish-time">
+                                33m
+                            </div>
+
+                        </div>
+                        <div class="tweet__content">
+                            Tesla will be launching in india soon.. 
+                            <img class="tweet__image" src="https://www.focus2move.com/wp-content/uploads/2020/01/Tesla-Roadster-2020-1024-03.jpg"/>
+                        </div>
+                        <div class="post__footer">
+                            <span class="material-icons"> repeat </span>
+                            1
+                            <span class="material-icons"> favorite_border </span>
+                            26
+                            <span class="material-icons"> publish </span>
+                            2
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <!-- feed ends -->
+        </div>
+
+        </div>
+        <div class="layout__right-sidebar-container">
+            <div class="layout__right-sidebar">
+                <!-- widgets starts -->
+                    <div class="widgets">
+                        <div class="widgets__input">
+                        <span class="material-icons widgets__searchIcon"> search</span>
+                        <input type="text" placeholder="Search Twitter"  />
+                        </div>
+                
+                        <div class="widgets__widgetContainer">
+                        <h2>What's happening?</h2>
+
+                        <div class="trends-for-you">
+                            <div class="trends-for-you__block">
+                                <div class="trends-for-you__heading">
+                                    Trending
+                                </div>
+                            </div>
+                            <div class="trends-for-you__block">
+                                <div class="trends-for-you__meta-information">
+                                    Entertainment - Trending
+                                </div>
+                                <div class="trends-for-you__trend-name">
+                                    #Spider-Man: No Way Home
+                                </div>
+                                <div class="trends-for-you__meta-information">
+                                    255k Tweets
+                                </div>
+                            </div>
+        
+                            <div class="trends-for-you__block">
+                                <div class="trends-for-you__meta-information">
+                                    Entertainment - Trending 02
+                                </div>
+                                <div class="trends-for-you__trend-name">
+                                    #RRR Trailer
+                                </div>
+                                <div class="trends-for-you__meta-information">
+                                    205k Tweets
+                                </div>
+                            </div>
+        
+                            <div class="trends-for-you__block">
+                                <div class="trends-for-you__meta-information">
+                                    Sports - Trending 03
+                                </div>
+                                <div class="trends-for-you__trend-name">
+                                    #CHN vs MUM
+                                </div>
+                                <div class="trends-for-you__meta-information">
+                                    152k Tweets
+                                </div>
+                            </div>
+        
+                            <div class="trends-for-you__block">
+                                <div class="trends-for-you__meta-information">
+                                    Entertainment - Trending 04
+                                </div>
+                                <div class="trends-for-you__trend-name">
+                                    #83 Movie
+                                </div>
+                                <div class="trends-for-you__meta-information">
+                                    105k Tweets
+                                </div>
+                            </div>
+        
+                            <div class="trends-for-you__block">
+                                <div class="trends-for-you__meta-information">
+                                    Sports - Trending 05
+                                </div>
+                                <div class="trends-for-you__trend-name">
+                                    #ChessBase India
+                                </div>
+                                <div class="trends-for-you__meta-information">
+                                    101k Tweets
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="who-to-follow">
+                <div class="who-to-follow__block">
+                    <div class="who-to-follow__heading">
+                        Who to follow
+                    </div>
+                </div>
+
+                <div class="who-to-follow__block">
+                    <img class="who-to-follow__author-logo" src="./images/Henna-Watson.jpg"/>
+                    <div class="who-to-follow__content">
+                        <div>
+                            <div class="who-to-follow__author-name">
+                                Billie jean
+                            </div>
+                            <div class="who-to-follow__author-slug">
+                                @BillieJean
+                            </div>
+                        </div>
+                        <div class="who-to-follow__button">
+                            Follow
+                        </div>
+                    </div>
+                </div>
+
+                <div class="who-to-follow__block">
+                    <img class="who-to-follow__author-logo" src="./images/billie-jean.jpg"/>
+                    <div class="who-to-follow__content">
+                        <div>
+                            <div class="who-to-follow__author-name">
+                                Henna Watson
+                            </div>
+                            <div class="who-to-follow__author-slug">
+                                @HennaWatson
+                            </div>
+                        </div>
+                        <div class="who-to-follow__button">
+                            Follow
+                        </div>
+                    </div>
+                </div>
+
+                <div class="who-to-follow__block">
+                    <img class="who-to-follow__author-logo" src="./images/guitarist.jpg"/>
+                    <div class="who-to-follow__content">
+                        <div>
+                            <div class="who-to-follow__author-name">
+                                Jim Love
+                            </div>
+                            <div class="who-to-follow__author-slug">
+                                @LoveJim
+                            </div>                                
+                        </div>
+                        <div class="who-to-follow__button">
+                            Follow
+                        </div>
+                    </div>                        
+                </div>
+            </div>
+
+        </div>
+            
+    </div>
+    
+</body>
+</html>
